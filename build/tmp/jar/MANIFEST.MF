@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Built-By: Jamie
+Built-JDK: 17.0.5
+Built-OS: Windows 11
+

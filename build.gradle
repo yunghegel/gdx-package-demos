@@ -1,0 +1,8 @@
+dependencies {
+    implementation(project(":gdx-yung-utils"))
+    implementation(project(":gdx-bmesh"))
+    implementation(project(":gdx-gizmos"))
+    implementation(project(":gdx-picking"))
+    implementation(project(":gdx-scenegraph"))
+    implementation(project(":gdx-mesh-plus"))
+}
