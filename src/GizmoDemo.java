@@ -38,7 +38,7 @@ import org.yunghegel.gdx.gizmo.core.transform.TransformGizmoTarget;
 import org.yunghegel.gdx.gizmo.core.transform.TranslateGizmo;
 import org.yunghegel.gdx.gizmo.core.utility.CompassGizmo;
 import org.yunghegel.gdx.gizmo.core.utility.CompassTarget;
-import org.yunghegel.gdx.scenegraph.scene3d.graph.Spatial;
+
 import org.yunghegel.gdx.utils.graphics.CameraController;
 import org.yunghegel.gdx.utils.graphics.Grid;
 import org.yunghegel.gdx.utils.shaders.OutlineShader;
