@@ -143,7 +143,7 @@ public class BasicScene extends BaseScene {
     }
 
     void create(){
-            skin = new FreeTypeSkin(Gdx.files.internal("skin/salient/uiskin.json"));
+            skin = new FreeTypeSkin(Gdx.files.internal("salient/uiskin.json"));
             VisUI.load(skin);
 
             spriteBatch = new SpriteBatch();

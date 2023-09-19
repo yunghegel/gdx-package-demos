@@ -89,6 +89,7 @@ public class GizmoDemo extends ApplicationAdapter {
     @Override
     public void create() {
         super.create();
+
         batch = new ModelBatch();
         camera = new PerspectiveCamera(80, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         camera.near = 0.01f;
