@@ -111,7 +111,7 @@ public class GizmoDemo extends ApplicationAdapter {
         ModelBuilder modelBuilder = new ModelBuilder();
         Model sphere = modelBuilder.createBox(1f,1f,1f,new Material(ColorAttribute.createEmissive(Color.GRAY),ColorAttribute.createDiffuse(Color.SLATE),ColorAttribute.createSpecular(Color.SLATE)), VertexAttributes.Usage.Position | VertexAttributes.Usage.Normal);
         instance = new ModelInstance(sphere);
-//        Model gridLines = modelBuilder.createLineGrid(100, 100, .5f, .5f,new Material(ColorAttribute.createEmissive(Color.GRAY), new BlendingAttribute(0.5f)),VertexAttributes.Usage.Position | VertexAttributes.Usage.Normal);
+//        Model gridLines = modelBuilder.createLineGrid(100, 100, .5f, .5f,new Material(ColorAttribute.createEmissive(Ansi.GRAY), new BlendingAttribute(0.5f)),VertexAttributes.Usage.Position | VertexAttributes.Usage.Normal);
 
 
         float[] subdivisions = new float[]{0.25f, 0.125f};

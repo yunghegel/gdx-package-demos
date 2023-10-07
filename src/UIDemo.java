@@ -169,7 +169,7 @@ public class UIDemo extends ApplicationAdapter {
 
 
         viewportWidget = new ViewportWidget((ScreenViewport) scene.viewport,stage);
-        viewportWidget.setRenderer(()->{
+        viewportWidget.setRenderer((f)->{
            scene.render(Gdx.graphics.getDeltaTime());
         });
         viewportWidget.addViewportListener(new ViewportEventListener() {
@@ -204,7 +204,7 @@ public class UIDemo extends ApplicationAdapter {
         });
 
 //        viewportWidget.addViewportInputProcessor(camController);
-        window = new SWindow("Viewport");
+        window = new SWindow("ScenePreview");
         window.addListener(new InputListener() {
 
             @Override
