@@ -6,4 +6,10 @@ dependencies {
     implementation(project(":gdx-scenegraph"))
     implementation(project(":gdx-mesh-plus"))
     implementation(project(":gdx-ui"))
+    implementation 'io.github.libktx:ktx-collections:1.12.0-rc1'
+    implementation 'io.github.libktx:ktx-graphics:1.12.0-rc1'
+    implementation 'io.github.libktx:ktx-script:1.12.0-rc1'
+    implementation 'io.github.libktx:ktx-scene2d:1.12.0-rc1'
+    implementation 'io.github.libktx:ktx-ashley:1.12.0-rc1'
+    implementation 'com.github.czyzby:gdx-kiwi:1.9.1.9.6'
 }

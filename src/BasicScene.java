@@ -21,14 +21,12 @@ import com.kotcrab.vis.ui.widget.VisTable;
 import com.ray3k.stripe.FreeTypeSkin;
 import org.yunghegel.gdx.gizmo.core.utility.CompassGizmo;
 import org.yunghegel.gdx.scenegraph.scene3d.BaseScene;
-import org.yunghegel.gdx.scenegraph.scene3d.SceneGraph;
 import org.yunghegel.gdx.utils.graphics.CameraController;
 import org.yunghegel.gdx.utils.graphics.Grid;
 import org.yunghegel.gdx.utils.graphics.model.Primitive;
 import org.yunghegel.gdx.utils.graphics.model.PrimitiveSupplier;
 import org.yunghegel.gdx.utils.ui.LoggerWidget;
 import org.yunghegel.gdx.utils.ui.ViewportWidget;
-import org.yunghegel.gdx.utils.ui.widgets.SceneTree;
 
 public class BasicScene extends BaseScene {
 
@@ -51,7 +49,7 @@ public class BasicScene extends BaseScene {
     protected ModelBatch batch;
     protected Environment environment;
     protected InputMultiplexer inputs;
-    protected SceneGraph sceneGraph;
+    protected SceneGraphBase sceneGraph;
     protected VisTable rightTable;
     protected VisTable leftTable;
 
@@ -148,7 +146,7 @@ public class BasicScene extends BaseScene {
 
             spriteBatch = new SpriteBatch();
             font = skin.getFont("default-font");
-            sceneGraph=new SceneGraph(this);
+            sceneGraph=new SceneGraphBase(this);
             batch=new ModelBatch();
             camera=new PerspectiveCamera(67, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
             viewport=new ScreenViewport(camera);
